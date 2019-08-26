@@ -12,7 +12,7 @@ cmake ..
 make -j8
 ```
 
-For building your application you just need to change the source in `add_executable`.
+For build your application you just need to change the source in `add_executable`.
 
 ```cmake
 add_executable(${PROJECT_NAME} test_cclient.c)
